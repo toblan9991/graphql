@@ -1,0 +1,53 @@
+/* client/src/index.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f2f5;
+}
+
+.container {
+  max-width: 1350px;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h4 {
+  text-align: center;
+}
+
+.ant-divider-horizontal {
+  margin: 16px 0;
+}
+
+button {
+  margin-right: 5px;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.ant-form-inline .ant-form-item {
+  margin-right: 8px;
+}
+
+.ant-form-item-label > label {
+  margin-right: 8px;
+}
+
+.ant-divider-with-text-center {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.person-cards {
+  margin-top: 20px;
+}
+
+.person-card-row {
+  margin-bottom: 20px;
+}
