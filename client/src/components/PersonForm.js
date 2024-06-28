@@ -1,4 +1,3 @@
-// client/src/components/PersonForm.js
 import React from 'react';
 import { useMutation, gql } from '@apollo/client';
 import { Form, Input, Button } from 'antd';

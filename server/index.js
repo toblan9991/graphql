@@ -1,8 +1,6 @@
-// server/index.js
 const { ApolloServer, gql } = require('apollo-server-express');
 const express = require('express');
 
-// Mock data
 let people = [
   { id: '1', firstName: 'Bill', lastName: 'Gates' },
   { id: '2', firstName: 'Steve', lastName: 'Jobs' },
@@ -21,7 +19,6 @@ let cars = [
   { id: '9', year: '2017', make: 'Volvo', model: 'XC40', price: 55000, personId: '3' },
 ];
 
-// Type definitions
 const typeDefs = gql`
   type Person {
     id: ID!
@@ -57,7 +54,6 @@ const typeDefs = gql`
   }
 `;
 
-// Resolvers
 const resolvers = {
   Query: {
     people: () => people,

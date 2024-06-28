@@ -1,4 +1,3 @@
-// client/src/pages/HomePage.js
 import React from 'react';
 import { useQuery, gql } from '@apollo/client';
 import { Row, Col, Typography, Divider } from 'antd';
@@ -54,7 +53,6 @@ const HomePage = () => {
           <Divider orientation="center" style={{ fontSize: '16px', fontWeight: 'bold' }}>Records</Divider>
         </>
       )}
-      {/* <Divider orientation="center" style={{ fontSize: '16px', fontWeight: 'bold' }}>Records</Divider> */}
    
       <div className="person-cards">
         {people.map(person => (

@@ -40,10 +40,10 @@ Follow these steps to set up and run the project:
    npm start
 
 
-![Main Page](./images/localhost_3000_.png/localhost_3000_.png)   
-![Person ID Page](./images/localhost_3000_people_1.png/localhost_3000_people_1.png)   
+![Main Page](./images/localhost_3000_.png)   
+![Person ID Page](./images/localhost_3000_people_1.png)   
 
-Additional Information
+## Additional Information
 Ensure that all the dependencies are properly installed.
 If you encounter any issues, refer to the project's documentation or contact the project maintainer.  
 

@@ -1,4 +1,3 @@
-// client/src/pages/PersonShowPage.js
 import React, { useState } from 'react';
 import { useQuery, useMutation, gql } from '@apollo/client';
 import { useParams, Link } from 'react-router-dom';
@@ -204,11 +203,6 @@ const PersonShowPage = () => {
           onClick={() => handleDeletePerson(data.person.id)}
         />
       </div>
-      {/* <Row justify="center">
-        <Col>
-          <Link to="/">Go Back Home</Link>
-        </Col>
-      </Row> */}
 
       <Modal title="Edit Car" visible={isModalVisible} onOk={handleOkCar} onCancel={handleCancelCar}>
         <Form form={form} layout="vertical">

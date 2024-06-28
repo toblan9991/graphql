@@ -1,4 +1,3 @@
-// client/src/components/CarCard.js
 import React from 'react';
 import { Card, Button } from 'antd';
 import { EditOutlined, DeleteOutlined } from '@ant-design/icons';

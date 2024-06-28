@@ -1,4 +1,3 @@
-// client/src/components/PersonCard.js
 import React, { useState } from 'react';
 import { Card, Button, Modal, Form, Input, InputNumber, Divider } from 'antd';
 import { EditOutlined, DeleteOutlined } from '@ant-design/icons';

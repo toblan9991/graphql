@@ -1,4 +1,3 @@
-// client/src/components/CarForm.js
 import React from 'react';
 import { useMutation, gql } from '@apollo/client';
 import { Form, Input, InputNumber, Button, Select } from 'antd';

@@ -1,4 +1,3 @@
-// client/src/apollpClient.js
 import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
 import React from 'react';
 
